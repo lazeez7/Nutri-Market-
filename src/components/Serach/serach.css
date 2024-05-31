@@ -19,6 +19,16 @@
        
         
     }
+
+    .icon{
+        border: solid 1px gray;
+        padding: 8px 15px;
+        height: max-content;
+        border-right: none;
+        border-radius: 15px 0px 0px 15px;
+        background-color: #398378;
+        color: #fff;
+    }
 }
 
 input:focus{
