@@ -11,6 +11,16 @@
     }
 }
 
+@media(max-width:375px) {
+    input{
+        padding: 10px 10px;
+        width: 100px;
+        border-radius: 0px 15px 15px 0px;
+       
+        
+    }
+}
+
 input:focus{
     border-color: #398378  ;
     outline: #398378  !important;
