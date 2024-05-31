@@ -1,0 +1,72 @@
+.modal img {
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.modal {
+  justify-content: start;
+  display: flex;
+  gap: 30px;
+
+  
+}
+@media (max-width: 760px) {
+  .modal {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.modalproductdetalis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.modalproductdetalis button {
+  height: 40px;
+  background-color: #398378;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.modal_btn_x{
+  height: 40px;
+  background-color: crimson !important;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.modalproductdetalis span {
+  color: rgb(191, 189, 189);
+}
+
+.back{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+@media(max-width:375px){
+  .back{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .modal h3{
+    color: black;
+  }
+}
+
+
+

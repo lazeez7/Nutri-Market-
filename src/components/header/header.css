@@ -1,0 +1,158 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  text-align: center;
+}
+
+.imgg{
+  width: 110px;
+}
+.tel{
+  width: 200px;
+}
+
+.tel img{
+    width: 40px;
+}
+
+
+.halal{
+  width: 50px;
+}
+
+.card:nth-child(1) a {
+  color: #010400;
+  font-family: Comfortaa;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.card:nth-child(3) a {
+  color: #1e1b26;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.card:nth-child(3) p {
+  color: rgba(30, 27, 38, 0.5);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card:nth-child(4) a {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card:nth-child(4) p {
+  color: #a5a4a8;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card:nth-child(1) p {
+  color: #010400;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card:nth-child(2) p {
+  color: rgba(30, 27, 38, 0.5);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card:nth-child(2) {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+
+.card:nth-child(3) img {
+  width: 35px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+
+ 
+}
+
+@media (max-width: 992px) {
+  /* .wrap {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  .wrap .card:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  /* .wrap {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  .wrap .card {
+    padding: 0;
+    padding-top: 20px;
+  }
+  .wrap .card img {
+    height: 70px;
+  }
+  .wrap .card:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrap .card:nth-child(3) div {
+    display: none;
+  }
+  .wrap .card {
+    padding: 0;
+    padding-top: 10px;
+  }
+  .wrap .card img {
+    height: 50px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.wrap a {
+  text-decoration: none;
+  color: #000;
+}

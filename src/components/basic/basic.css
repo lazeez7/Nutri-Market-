@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.nav {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.tel {
+  gap: 12px;
+}
+
+.nav h6 {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.tel h6 {
+  color: rgba(30, 27, 38, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.apex {
+  gap: 12px;
+}
+
+.text_2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(30, 27, 38, 0.5);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text_1 {
+  padding-top: 8px;
+  font-weight: 200;
+}
+
+.halal-certificate img {
+  width: 74px;
+}
+
+.halal {
+  gap: 14px;
+  justify-content: space-evenly;
+}
+
+.carusel-img img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.nav-wrap a {
+  text-decoration: none;
+  color: rgb(30, 27, 38);
+}
+
+.nav-wrap-ota {
+  background-color: white;
+  /* box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.39); */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+  /* padding: 5px 0px; */
+}
+
+.nav-wrap {
+  flex-wrap: wrap;
+  display: flex;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.nav-wrap {
+  margin-top: 35px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(30, 27, 38);
+}
+
+.href {
+  gap: 42px;
+}
+
+.korzinka {
+  margin-left: auto;
+}
