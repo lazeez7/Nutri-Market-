@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       {/* <Header /> */}
-      <Search/>
       <Banner />
+      <Search/>
       <Header_two isOpen={() => setOpenModal(true)} />
       {/* <Footer/> */}
     </div>

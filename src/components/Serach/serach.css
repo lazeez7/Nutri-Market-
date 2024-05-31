@@ -1,0 +1,32 @@
+.search__input{
+    align-items: center;
+    display: flex;
+    
+
+    input{
+        padding: 10px 10px;
+        width: 200px;
+        border-radius: 0px 15px 15px 0px;
+        
+    }
+}
+
+input:focus{
+    border-color: #398378  ;
+    outline: #398378  !important;
+}
+
+.icon{
+    border: solid 1px #000;
+    padding: 8px 15px;
+    height: max-content;
+    border-right: none;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #398378;
+    color: #fff;
+}
+
+.search__wrap{
+    padding: 20px 0px;
+    
+}
