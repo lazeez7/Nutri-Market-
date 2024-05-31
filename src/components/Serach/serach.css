@@ -8,6 +8,7 @@
         width: 200px;
         border-radius: 0px 15px 15px 0px;
         
+        border-left: none;
     }
 }
 
@@ -16,12 +17,10 @@
         padding: 10px 10px;
         width: 200px;
         border-radius: 0px 15px 15px 0px;
-       
-        
     }
 
     .icon{
-        border: solid 1px gray;
+        border: solid 0px gray;
         padding: 8px 15px;
         height: max-content;
         border-right: none;
