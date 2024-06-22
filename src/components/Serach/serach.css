@@ -47,5 +47,5 @@ input:focus{
 
 .search__wrap{
     padding: 20px 0px;
-    
+    display: block;
 }

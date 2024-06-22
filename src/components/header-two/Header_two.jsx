@@ -71,7 +71,10 @@ const Header_two = () => {
       });
     };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
 
     const sections = document.querySelectorAll('section');
     sections.forEach((section) => observer.observe(section));
@@ -87,14 +90,17 @@ const Header_two = () => {
       phone_number: phone,
     });
 
+    console.log(curUser);
+
     if (curUser.status === 400) {
       alert('Raqam yoki sms kod xato!');
       return;
     }
 
-    await axios
+
+    axios
       .post(
-        `https://api.telegram.org/botYOUR_BOT_TOKEN/sendMessage?chat_id=YOUR_CHAT_ID&text=${encodeURIComponent(
+        `https://api.telegram.org/bot5995625468:AAHTT3udn5Hb4RY62aAks2REcqkGtsI6I4k/sendMessage?chat_id=-1002222946656&text=${encodeURIComponent(
           `Имя: ${curUser.user_name}\nНомер: ${curUser.phone}\nАдрес: ${address}\n\n` +
             items
               .map(
@@ -102,7 +108,7 @@ const Header_two = () => {
                   `Название: ${item.name_ru}\nЦена: ${item.price}\nКоличество: ${item.quantity}`
               )
               .join(`\n\n`)
-        )}&parse_mode=MarkdownV2`
+        )}`
       )
       .then(() => {
         emptyCart();
@@ -208,6 +214,7 @@ const Header_two = () => {
                         Очистить корзину
                       </button>
                     </div>
+
                     <div className='korzina_products'>
                       {items?.map((el) => {
                         const priceCount = el.count * el.price;
