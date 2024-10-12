@@ -100,7 +100,7 @@ const Header_two = () => {
 
     axios
       .post(
-        `https://api.telegram.org/bot5995625468:AAHTT3udn5Hb4RY62aAks2REcqkGtsI6I4k/sendMessage?chat_id=-1002222946656&text=${encodeURIComponent(
+        `https://api.telegram.org/bot5995625468:AAHTT3udn5Hb4RY62aAks2REcqkGtsI6I4k/sendMessage?chat_id=-4587534656&text=${encodeURIComponent(
           `Имя: ${curUser.user_name}\nНомер: ${curUser.phone}\nАдрес: ${address}\n\n` +
             items
               .map(
