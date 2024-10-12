@@ -140,7 +140,7 @@
 
 .korzinka .zero {
     width: 50px;
-    background-color: #398378;
+    background-color: #7c0aa8;
     color: #fff;
 }
 
@@ -167,7 +167,7 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #398378;
+    background-color: #7c0aa8;
     color: #fff;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .modal-btn button {
-    background: #398378;
+    background: #7c0aa8;
     border: none;
     border-radius: 200px;
     color: #fff;
@@ -275,7 +275,7 @@
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        background-color: #398378;
+        background-color: #7c0aa8;
         color: #fff;
     }
 }
@@ -382,7 +382,7 @@
 }
 
 .clear {
-    background: #398378;
+    background: #7c0aa8;
     border: none;
     border-radius: 200px;
     color: #fff;
@@ -497,7 +497,7 @@
     padding: 18px 29px;
     font-weight: 500;
     font-size: 16px;
-    background: #398378;
+    background: #7c0aa8;
     color: #fff;
     display: block;
     margin: 0 auto;
@@ -730,7 +730,7 @@ gap: 20px;
 
 
 .btn-submit {
-    background: #398378;
+    background: #7c0aa8;
     border: 0;
     border-radius: 2000px;
     color: #fff;
@@ -749,6 +749,7 @@ gap: 20px;
 
 
 
+
 .header-main .nav_two a.active {
     transition: background-color .3s;
     /* font-weight: bold; */
@@ -757,7 +758,7 @@ gap: 20px;
     color: #fff;  
     animation: none;
     border-radius: 20px;
-    background-color: #398378 !important;  
+    background-color: #7c0aa8 !important;  
 
   }
   

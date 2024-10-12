@@ -25,14 +25,14 @@
         height: max-content;
         border-right: none;
         border-radius: 15px 0px 0px 15px;
-        background-color: #398378;
+        background-color: #7c0aa8;
         color: #fff;
     }
 }
 
 input:focus{
-    border-color: #398378  ;
-    outline: #398378  !important;
+    border-color: #7c0aa8  ;
+    outline: #7c0aa8  !important;
 }
 
 .icon{
@@ -41,7 +41,7 @@ input:focus{
     height: max-content;
     border-right: none;
     border-radius: 15px 0px 0px 15px;
-    background-color: #398378;
+    background-color: #7c0aa8;
     color: #fff;
 }
 

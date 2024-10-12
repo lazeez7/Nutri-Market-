@@ -3,9 +3,9 @@ import "./banner.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import Photo from './aksiya kola katta.jpg'
-import Photo_2 from './juma kuni bepul kattas.jpg'
-import  Photo_3 from './tabiiy katta.jpg'
+import Photo from './oson.jpg'
+import Photo_2 from './osondokon.jpg'
+import  Photo_3 from './osonpng.png'
 const Banner = () => {
   return (
     <div className="banner">
